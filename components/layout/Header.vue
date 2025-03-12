@@ -14,7 +14,7 @@
         
         <nav class="hidden md:flex space-x-6">
           <NuxtLink to="/speech-editing" class="text-gray-200 hover:text-primary-400 transition duration-300">
-            Speech Text Editing
+             Text Editing
           </NuxtLink>
           <NuxtLink to="/docs-editing" class="text-gray-200 hover:text-primary-400 transition duration-300">
             Docs Editing
@@ -50,7 +50,7 @@
           class="text-xl text-center py-3 w-full border-b border-gray-800 text-white hover:text-primary-400 transition duration-300"
           @click="isMenuOpen = false"
         >
-          Speech Text Editing
+          Text Editing
         </NuxtLink>
         <NuxtLink 
           to="/docs-editing" 
