@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-color-scheme: dark) {
+    .header-dark-mode {
+        display: block; /* or any style you want for dark mode */
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .header-dark-mode {
+        display: none; /* Hides the header in light mode */
+    }
+}
